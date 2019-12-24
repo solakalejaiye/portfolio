@@ -1,0 +1,300 @@
+body {
+  margin: 0;
+  font-family: 'Overpass', sans-serif;
+  cursor: url("https://github.com/solakalejaiye/Profile-Card/blob/master/dribbble.png?raw=true");
+}
+
+.footer {
+  background-color: #F3F3F3;
+  color: #343434;
+  display: flex;
+  justify-content: center;
+}
+
+.footer h4 {
+  font-weight: 400;
+}
+
+.container {
+  margin: auto 8%;
+  cursor: url("https://github.com/solakalejaiye/Profile-Card/blob/master/dribbble.png?raw=true");
+}
+
+.selected-works {
+  display: flex;
+  margin: 5% 0;
+  cursor: url("https://github.com/solakalejaiye/Profile-Card/blob/master/dribbble.png?raw=true");
+}
+
+.fa-long-arrow-right {
+  margin-left: 2%;
+}
+
+#contact {
+  margin: 3% 8%;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+#contact:active {
+  border-bottom: 3px solid;
+
+}
+
+#contact p {
+  margin-top: 0.5rem;
+}
+
+.my-email {
+  margin-top:0;
+}
+
+#contact h2 {
+  margin-bottom: 1%;
+}
+
+.social-icons i {
+  display: inline-block;
+  margin: 2%;
+  font-size: 24px;
+  color: #3f3f3f;
+  margin-bottom: 3%;
+}
+
+
+.fa {
+  padding-bottom: 5px;
+  margin-right: 2%;
+}
+
+.button {
+    padding: 0 35px;
+    margin-right: 10px;
+    align-items: center;
+    font-family: 'Overpass', sans-serif;
+    font-size: 16px;
+    border-style: none;
+}
+
+.view-project h4 {
+    display: inline-block;
+    padding: 0 2%;
+}
+
+.view-project {
+  display: inline-block;
+  padding: 0 2%;
+  width: 25%;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 4px;
+  text-align: center;
+  border: 1px solid #acacac;
+}
+
+.view-project:hover {
+  box-shadow: 0 3px 6px #acacac;
+}
+
+.material-icons {
+  margin: 0;
+  padding: 0 2%;
+  font-size: 12px;
+}
+
+.work-desc{
+  flex: 1;
+  padding-left: 5%;
+}
+
+.work-title {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 3%;
+}
+
+.work-summary {
+  margin-bottom: 5%;
+}
+
+.work-desc-2 {
+  flex: 1;
+  padding-right: 5%;
+}
+
+
+.work-image {
+  flex: 1;
+  background-color: #707070;
+}
+#mid-section {
+  background-color: #f9f9f9;
+  padding: 5% 8%;
+
+}
+
+#top-section {
+  display: flex;
+  margin: 8% 8%;
+}
+
+.section-head {
+  font-size: 32px;
+  text-align: center;
+  font-family: 'Bree Serif', serif;
+}
+
+.welcome-text {
+  margin: 0;
+  padding: 10px 0;
+  font-size: 64px;
+  font-weight: 900;
+  font-family: 'Bree Serif', serif;
+}
+
+.title-text {
+  margin: 0;
+  padding-top: 0;
+  margin-bottom: 36px;
+  opacity: 0.85;
+  font-family: 'Bree Serif', serif;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.summary-text {
+  line-height: 1.6;
+  font-weight: 400;
+  margin-bottom: 36px;
+  font-size: 20px;
+}
+
+.pro{
+  text-decoration: underline;
+}
+
+.top-left-section {
+  flex: 1;
+  margin: auto 0;
+  align-items: center;
+  text-align: left;
+  padding: 0;
+  cursor: url("https://github.com/solakalejaiye/Profile-Card/blob/master/dribbble.png?raw=true");
+}
+
+.cta-2{
+    font-size: 20px;
+    font-family: cera pro, sans-serif;
+    font-weight: 400;
+    color: black;
+    background-color: white;
+    border: solid 2px black;
+    padding: 8px 24px;
+    margin-right: 2%;
+    border-radius: 4px;
+    border-style: solid;
+    cursor: pointer;
+}
+
+.cta-2:hover {
+  box-shadow: 0 2px 4px #acacac;
+  color: white;
+  background-color: black;
+  border-color: white;
+}
+
+.cta:hover {
+  box-shadow: 0 1px 2px #acacac;
+  color: white;
+  background-color: black;
+  border: none;
+}
+
+.top-right-section {
+  flex: 1;
+  text-align: right;
+}
+
+.headshot {
+  max-width: 80%;
+}
+
+.name-logo {
+  align-self: center;
+  margin-right: 10px;
+  height: 32px;
+  width: auto;
+}
+
+.logotype {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 600;
+  color: #4F4F4F;
+}
+
+.top-nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.top-nav {
+  display: flex;
+  background: white;
+  box-shadow: 0 1px 2px #AFAFAF;
+  padding: 0 4%;
+  justify-content: space-between;
+  align-items: center;
+  color: #4F4F4F;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 92%;
+  max-width: 1920px;/* Full width */
+}
+
+.nav-brand {
+  display: flex;
+  align-items: center;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links {
+  font-family: cera pro, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  list-style: none;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 24px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.nav-links:hover {
+  border: 2px black solid;
+  border-radius: 4px;
+}
+
+.cta {
+  padding: 8px 24px;
+  margin-left: 30px;
+  border: solid 2px black;
+  border-radius: 4px;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  line-height: 1.6;
+}
