@@ -6,7 +6,7 @@ body {
 
 @media (max-width: 675px) {
 
-  .nav-items {
+  .menu {
     display: none;
   }
 
