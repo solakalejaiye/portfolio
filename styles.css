@@ -4,6 +4,67 @@ body {
   cursor: url("https://github.com/solakalejaiye/Profile-Card/blob/master/dribbble.png?raw=true");
 }
 
+@media (max-width: 675px) {
+
+  .nav-items {
+    display: none;
+  }
+
+  #top-section {
+    display: flex;
+    flex-direction: column;
+    margin: 8% 8%;
+  }
+
+  #mid-section {
+    padding: 8% 0;
+  }
+
+  .top-right-section {
+    display: none;
+    text-align: center;
+    margin: 5%;
+    justify-content: center;
+  }
+
+  .top-left-section {
+    align-items: center;
+    text-align: center;
+  }
+
+  .selected-works {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .welcome-text {
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Bree Serif', serif;
+  }
+
+  .work-image img {
+    width: 414px;
+    order: 2;
+  }
+
+  .work-desc, .work-desc-2 {
+    padding: 5% 0;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: left;
+    order: 1;
+  }
+
+  .view-project i {
+    display: none;
+  }
+}
+
+.work-image img {
+  width: 100%;
+}
+
 .footer {
   background-color: #F3F3F3;
   color: #343434;
@@ -11,7 +72,7 @@ body {
   justify-content: center;
 }
 
-.footer h4 {
+.footer {
   font-weight: 400;
 }
 
@@ -39,7 +100,6 @@ body {
 
 #contact:active {
   border-bottom: 3px solid;
-
 }
 
 #contact p {
@@ -47,7 +107,7 @@ body {
 }
 
 .my-email {
-  margin-top:0;
+  margin-top: 0;
 }
 
 #contact h2 {
@@ -62,24 +122,23 @@ body {
   margin-bottom: 3%;
 }
 
-
 .fa {
   padding-bottom: 5px;
   margin-right: 2%;
 }
 
 .button {
-    padding: 0 35px;
-    margin-right: 10px;
-    align-items: center;
-    font-family: 'Overpass', sans-serif;
-    font-size: 16px;
-    border-style: none;
+  padding: 0 35px;
+  margin-right: 10px;
+  align-items: center;
+  font-family: 'Overpass', sans-serif;
+  font-size: 16px;
+  border-style: none;
 }
 
 .view-project h4 {
-    display: inline-block;
-    padding: 0 2%;
+  display: inline-block;
+  padding: 0 2%;
 }
 
 .view-project {
@@ -103,7 +162,7 @@ body {
   font-size: 12px;
 }
 
-.work-desc{
+.work-desc {
   flex: 1;
   padding-left: 5%;
 }
@@ -123,15 +182,13 @@ body {
   padding-right: 5%;
 }
 
-
 .work-image {
   flex: 1;
-  background-color: #707070;
 }
+
 #mid-section {
   background-color: #f9f9f9;
   padding: 5% 8%;
-
 }
 
 #top-section {
@@ -170,7 +227,7 @@ body {
   font-size: 20px;
 }
 
-.pro{
+.pro {
   text-decoration: underline;
 }
 
@@ -180,21 +237,20 @@ body {
   align-items: center;
   text-align: left;
   padding: 0;
-  cursor: url("https://github.com/solakalejaiye/Profile-Card/blob/master/dribbble.png?raw=true");
 }
 
-.cta-2{
-    font-size: 20px;
-    font-family: cera pro, sans-serif;
-    font-weight: 400;
-    color: black;
-    background-color: white;
-    border: solid 2px black;
-    padding: 8px 24px;
-    margin-right: 2%;
-    border-radius: 4px;
-    border-style: solid;
-    cursor: pointer;
+.cta-2 {
+  font-size: 20px;
+  font-family: cera pro, sans-serif;
+  font-weight: 400;
+  color: black;
+  background-color: white;
+  border: solid 2px black;
+  padding: 8px 24px;
+  margin-right: 2%;
+  border-radius: 4px;
+  border-style: solid;
+  cursor: pointer;
 }
 
 .cta-2:hover {
@@ -242,7 +298,6 @@ body {
   color: inherit;
 }
 
-
 .top-nav {
   display: flex;
   background: white;
@@ -251,10 +306,13 @@ body {
   justify-content: space-between;
   align-items: center;
   color: #4F4F4F;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
+  position: fixed;
+  /* Set the navbar to fixed position */
+  top: 0;
+  /* Position the navbar at the top of the page */
   width: 92%;
-  max-width: 1920px;/* Full width */
+  max-width: 1920px;
+  /* Full width */
 }
 
 .nav-brand {
