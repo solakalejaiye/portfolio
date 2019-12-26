@@ -5,6 +5,10 @@ body {
 }
 
 @media (max-width: 675px) {
+  
+  .top-nav {
+    padding: 2% 0;
+  }
 
   .menu {
     display: none;
