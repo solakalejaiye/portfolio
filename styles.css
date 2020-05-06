@@ -206,7 +206,7 @@ body {
   font-size: 32px;
   text-align: center;
   font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .welcome-text {
@@ -214,7 +214,7 @@ body {
   padding: 10px 0;
   font-size: 64px;
   font-weight: 900;
-  font-family: 'Bree Serif', serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .title-text {
@@ -222,7 +222,7 @@ body {
   padding-top: 0;
   margin-bottom: 36px;
   opacity: 0.85;
-  font-family: 'Bree Serif', serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 24px;
   font-weight: 300;
 }
@@ -248,7 +248,7 @@ body {
 
 .cta-2 {
   font-size: 20px;
-  font-family: cera pro, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;;
   font-weight: 400;
   color: black;
   background-color: white;
@@ -333,9 +333,9 @@ body {
 }
 
 .nav-links {
-  font-family: cera pro, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 16px;
   list-style: none;
   text-decoration: none;
   display: inline-block;
