@@ -1,8 +1,7 @@
 body {
   margin: 0;
   font-family: 'Source Sans Pro', sans-serif;
-  cursor: url("https://github.com/solakalejaiye/Profile-Card/blob/master/dribbble.png?raw=true");
-}
+ }
 
 @media (max-width: 675px) {
   
@@ -86,7 +85,6 @@ body {
 
 .container {
   margin: auto 8%;
-  cursor: url("https://github.com/solakalejaiye/Profile-Card/blob/master/dribbble.png?raw=true");
 }
 
 .selected-works {
@@ -207,7 +205,8 @@ body {
 .section-head {
   font-size: 32px;
   text-align: center;
-  font-family: 'Bree Serif', serif;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
 }
 
 .welcome-text {
